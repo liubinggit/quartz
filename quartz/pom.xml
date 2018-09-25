@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.liubing</groupId>
-	<artifactId>quartz</artifactId>
+	<artifactId>scheduled</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -40,6 +40,8 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
+		
+		<!--添加quartz  -->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

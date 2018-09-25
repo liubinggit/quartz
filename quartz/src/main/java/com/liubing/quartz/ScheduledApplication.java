@@ -6,9 +6,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class QuartzApplication {
+public class ScheduledApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuartzApplication.class, args);
+		SpringApplication.run(ScheduledApplication.class, args);
 	}
 }

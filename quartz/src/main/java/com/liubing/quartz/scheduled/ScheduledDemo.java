@@ -18,6 +18,9 @@ public class ScheduledDemo {
 	
 	/**
 	 * 定时任务
+	 * cron 有6个值 或7个值, 第7个值为年, 推荐使用6个值
+	 * 
+	 * 秒 分 24小时 日 月  周几
 	 */
 	@Scheduled(cron = "0/5 * * * * ?")
 	public void scheduledMethod() {
